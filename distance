@@ -18,7 +18,7 @@ int minDistance(int dist[], int visited[]) {
 }
 
 // Dijkstra Algorithm
-void dijkstra(int graph[V][V], int src, int dest) {
+void dijkstra(int graph[V][V], int src, int dest) {  
     int dist[V];
     int visited[V];
     int parent[V];
